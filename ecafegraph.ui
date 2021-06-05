@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ControlPanel</class>
+ <widget class="QMainWindow" name="ControlPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>554</width>
+    <height>301</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>E-Cafe Control Panel</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #2B3440;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="showframe">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>521</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>511</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FF971A;
+font: 48pt &quot;MS UI Gothic&quot;;</string>
+     </property>
+     <property name="text">
+      <string>TUPC E-Cafeteria</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>90</y>
+       <width>151</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FF971A;
+font:18pt &quot;MS UI Gothic&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Control Panel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>140</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FF971A;
+font:10pt &quot;MS UI Gothic&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Press buttons to show output</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btop">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background:#2B3440;
+color:#FF971A;
+	font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton:hover
+{
+background:#FFFFFF;
+color:#FF971A;
+}</string>
+     </property>
+     <property name="text">
+      <string>TOP SELLING</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bleast">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>190</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background:#2B3440;
+color:#FF971A;
+	font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton:hover
+{
+background:#FFFFFF;
+color:#FF971A;
+}</string>
+     </property>
+     <property name="text">
+      <string>LEAST SELLING</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bactive">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>190</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background:#2B3440;
+color:#FF971A;
+	font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton:hover
+{
+background:#FFFFFF;
+color:#FF971A;
+}</string>
+     </property>
+     <property name="text">
+      <string>ACTIVE TIME</string>
+     </property>
+    </widget>
+    <zorder>label_5</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_6</zorder>
+    <zorder>btop</zorder>
+    <zorder>bleast</zorder>
+    <zorder>bactive</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
